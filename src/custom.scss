@@ -1,0 +1,10 @@
+// Override default variables before the import
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary": #00bcd4,
+) !default;
+$enable-rounded: false;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
