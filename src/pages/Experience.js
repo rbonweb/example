@@ -1,11 +1,11 @@
 import React from "react";
 
-function About() {
+function Experience() {
     return (
         <React.Fragment>
-            About
+            Experience
         </React.Fragment>
     );
 }
 
-export default About;
+export default Experience;

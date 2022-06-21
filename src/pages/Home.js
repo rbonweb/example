@@ -1,93 +1,77 @@
 import React from "react";
-import { Card, Carousel, Col, Row } from "react-bootstrap";
+import avtar from "./../images/logo.png";
 
 function Home() {
     return (
-        <React.Fragment>
-            <Carousel variant="dark">
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://dummyimage.com/1920x1080/e7e7e7/fff"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://dummyimage.com/1920x1080/e9e9e9/fff"
-                        alt="Second slide"
-                    />
-                    <Carousel.Caption>
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://dummyimage.com/1920x1080/eeeeee/fff"
-                        alt="Third slide"
-                    />
-                    <Carousel.Caption>
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-            <div className="container py-3 text-center">
-                <p className="h3 fw-bold">Our Services</p>
-                <Row>
-                    <Col md={4}>
-                        <Card className="my-3 shadow">
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col md={4}>
-                        <Card className="my-3 shadow">
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col md={4}>
-                        <Card className="my-3 shadow">
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+        <div className="min-h-screen">
+            <div className="container pt-5 d-flex flex-column align-items-center">
+                <img src={avtar} width={200} alt="Rohit Bhadani" />
+                <h1>Rohit Bhadani</h1>
+                <h4>(Software Engineer)</h4>
+                <p className="text-center border-bottom pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellat commodi porro natus eos. Cum nobis, magnam vel, culpa sequi quia facere ipsam quaerat id qui, laudantium tenetur quis ea.</p>
+                <p className="text-center">
+                    <span className="d-mobile-block">Email: rbonweb@codinggujju.com</span>
+                    <span className="d-none d-web-contents"> | </span>
+                    <span className="d-mobile-block">Phone: +91-9888888888</span>
+                </p>
+                <p className="text-center">Address: 33, ipsum dolor sit amet, Ahmedabad. IN - 222222</p>
             </div>
-            <button className="btn btn-primary">Hello</button>
-        </React.Fragment >
+            <hr />
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-8">
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title fw-bold pb-3">Skills</h5>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div>
+                                            <p className="mb-0">HTML</p>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" style={{ width: "50%" }}>50%</div>
+                                            </div>
+                                        </div>
+                                        <div className="pt-3">
+                                            <p className="mb-0">CSS</p>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" style={{ width: "60%" }} >60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div>
+                                            <p className="mb-0">LARAVEL</p>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" style={{ width: "50%" }}>50%</div>
+                                            </div>
+                                        </div>
+                                        <div className="pt-3">
+                                            <p className="mb-0">REACTJS</p>
+                                            <div className="progress">
+                                                <div className="progress-bar" role="progressbar" style={{ width: "60%" }} >60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title fw-bold pb-3">Hobbies</h5>
+                                <span class="badge bg-primary me-3 mb-3 p-2">Primary</span>
+                                <span class="badge bg-secondary me-3 mb-3 p-2">Secondary</span>
+                                <span class="badge bg-success me-3 mb-3 p-2">Success</span>
+                                <span class="badge bg-danger me-3 mb-3 p-2">Danger</span>
+                                <span class="badge bg-warning text-dark me-3 mb-3 p-2">Warning</span>
+                                <span class="badge bg-info text-dark me-3 mb-3 p-2">Info</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 
