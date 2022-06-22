@@ -22,7 +22,7 @@ function Experience() {
                             <div className="card mb-3">
                                 <div className="card-body">
                                     <h5 className="card-title fw-bold">FrontEnd Developer <span className="h6">at Microsoft</span></h5>
-                                    <p className="mb-0">APR 2016 - APR 2019</p>
+                                    <p className="mb-0">APR 2013 - APR 2016</p>
                                     <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus earum vel excepturi autem mollitia, blanditiis voluptatum perspiciatis alias eos architecto in, adipisci voluptatem corrupti quidem enim accusamus itaque non tempore!</small>
                                 </div>
                             </div>
